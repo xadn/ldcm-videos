@@ -1,0 +1,21 @@
+This is my project to create a client portal for Lucky Dog Creative Media
+
+Overview of what the site should support
+
+  admin login only
+  secure sharing urls
+  videos hosted on s3
+  individual videos, no list page for clients
+  uploadify uploader
+
+  routes =>
+    /videos/1234
+    /admin/videos
+    /admin/videos/1234
+    /completed_videos
+    /processing_videos
+
+  models =>
+    user
+    video
+
